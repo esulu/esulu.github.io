@@ -18,4 +18,5 @@ Lighter Grey: #191919
 White: #f6f6f6  
 
 ### Fonts
-Can be viewed in the fonts folder
+Roboto (Regular and Light)  
+Roboto mono (Regular and Light)  
