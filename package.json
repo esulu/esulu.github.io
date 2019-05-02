@@ -4,7 +4,7 @@
   "description": "Portfolio website",
   "main": "index.js",
   "scripts": {
-    "sass": "echo \"sass script\""
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
