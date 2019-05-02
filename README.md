@@ -9,8 +9,13 @@ Website is currently a work in progress. More information will be added soon.
 ## Tools
 node-sass has been used in this project. The source can be viewed on this [GitHub page](https://github.com/sass/node-sass).
 
-### Colours (for reference)
+## Personal Reference Sections Below
+
+### Colours
 Red: #fd2549  
 Darker Grey: #232323  
 Lighter Grey: #191919  
 White: #f6f6f6  
+
+### Fonts
+Can be viewed in the fonts folder
