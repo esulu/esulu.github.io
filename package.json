@@ -1,0 +1,22 @@
+{
+  "name": "2019_01_websitevsc",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "echo \"sass script\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esulu/esulu.github.io.git"
+  },
+  "author": "Eren Sulutas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esulu/esulu.github.io/issues"
+  },
+  "homepage": "https://github.com/esulu/esulu.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
