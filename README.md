@@ -11,6 +11,9 @@ node-sass has been used in this project. The source can be viewed on this [GitHu
 
 ### Colours (for reference)
 Red: #fd2549
+
 Darker Grey: #2d2d2d
+
 Lighter Grey: #191919
+
 white: #f6f6f6
