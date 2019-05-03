@@ -20,3 +20,7 @@ White: #f6f6f6
 ### Fonts
 Roboto (Regular and Light)  
 Roboto mono (Regular and Light)  
+
+### don't forget
+add the logo
+make the website look not like trash
