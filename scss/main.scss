@@ -69,4 +69,12 @@ main {
             }
         }
     }
+
+    // Moves the main text lower
+    &#home {
+        overflow: hidden;
+        h1 {
+            margin-top: 20vh;
+        }
+    }
 }
