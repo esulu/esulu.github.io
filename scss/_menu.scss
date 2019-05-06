@@ -24,7 +24,7 @@
             // Line 1 - Rotate
             &:nth-child(1) {
                 transform: rotate(45deg) translate(5px, 5px);
-                background: red;
+                background: $secondary-color;
             }
 
             // Line 2 - Hide
@@ -35,7 +35,7 @@
             // Line 3 - Rotate
             &:nth-child(3) {
                 transform: rotate(-45deg) translate(7px, -6px);
-                background: red;
+                background: $secondary-color;
             }
 
         }
