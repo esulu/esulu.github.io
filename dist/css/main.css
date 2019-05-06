@@ -18,6 +18,9 @@
       background: red; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
+    .menu-btn.close .btn-line:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -6px);
+      background: red; }
 
 * {
   box-sizing: border-box; }

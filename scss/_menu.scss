@@ -33,6 +33,11 @@
             }
 
             // Line 3 - Rotate
+            &:nth-child(3) {
+                transform: rotate(-45deg) translate(7px, -6px);
+                background: red;
+            }
+
         }
     }
 }
