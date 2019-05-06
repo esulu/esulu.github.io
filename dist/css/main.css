@@ -1,9 +1,23 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #f6f6f6;
+    transition: all 0.5s ease-out; }
+
 * {
   box-sizing: border-box; }
 
 body {
   background: #232323;
-  color: #f6f6f5;
+  color: #f6f6f6;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
