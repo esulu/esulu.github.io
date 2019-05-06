@@ -16,8 +16,18 @@
         @include easeOut;
     }
 
-    // Menu lines become an X
+    // Menu bar transforms into an X
     &.close {
         transform: rotate(180deg);
+
+        .btn-line {
+            // Line 1 - Rotate
+            &:nth-child(1) {
+                background: red;
+            }
+            // Line 2 - Hide
+
+            // Line 3 - Rotate
+        }
     }
 }
