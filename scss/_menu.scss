@@ -114,6 +114,11 @@
             // Slide in from right on click
             transform: translate3d(0, 0, 0);
         }
+
+        // Current link has its own colour
+        //&.current > a {
+        //    color: $secondary-color;
+        //}
     }
 
     // Link style
@@ -127,6 +132,10 @@
         color: #f6f6f6;
         text-decoration: none;
         @include easeOut;
+
+        &:hover {
+            color: $secondary-color;
+        }
     }
 }
 
