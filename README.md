@@ -22,5 +22,6 @@ Roboto (Regular and Light)
 Roboto mono (Regular and Light)  
 
 ### don't forget
+npm run sass
 add the logo
 make the website look not like trash
