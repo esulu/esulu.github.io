@@ -64,4 +64,10 @@
         height: 100vh;
         overflow: hidden;
     }
+
+    &-nav {
+        margin: 0;
+        padding: 0;
+        background: $bar-color;
+    }
 }
