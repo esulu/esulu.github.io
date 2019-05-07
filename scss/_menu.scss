@@ -100,9 +100,26 @@
             width: 250px;
             height: 250px;
             background: url('../img/eren-logo3.jpg');
-            //background: url('../img/projects/HanSolo3.jpg');
             border-radius: 50%; // Makes it a circle
             border: solid 3px $secondary-color;
         }
+    }
+
+    // Each item/link in the menu
+    .nav-item {
+        transform: translate3d(600px, 0, 0);
+        @include easeOut;
+
+        &.show {
+            // Slide in from right on click
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}
+
+// Delay each nav item slide by 0.1s
+@for $x from 1 through 6 {
+    .nav-item:nth-child(#{$x}) {
+        transition-delay: $x * 0.1s;
     }
 }
