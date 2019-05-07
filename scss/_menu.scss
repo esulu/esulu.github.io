@@ -133,6 +133,7 @@
         text-decoration: none;
         @include easeOut;
 
+        // Change colour on hover
         &:hover {
             color: $secondary-color;
         }
