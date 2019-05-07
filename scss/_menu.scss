@@ -82,4 +82,16 @@
             transform: translate3d(0, 0, 0);
         }
     }
+
+    // Branding side characteristics 
+    &-branding {
+        background: darken($primary-color, 1);
+        transform: translate3d(0, 100%, 0);
+        @include easeOut;
+
+        &.show {
+            // Slide in from bottom on click
+            transform: translate3d(0, 0, 0);
+        }
+    }
 }
