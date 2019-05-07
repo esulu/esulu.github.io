@@ -42,7 +42,8 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #191919; }
+    background: #191919;
+    list-style: none; }
 
 * {
   box-sizing: border-box; }

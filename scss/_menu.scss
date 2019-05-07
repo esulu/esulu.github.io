@@ -44,16 +44,19 @@
 
 // Menu overlay
 .menu {
+    // Default 
     position: fixed;
     top: 0;
     width: 100%;
     opacity: 0.9;
     visibility: hidden;
 
+    // On click
     &.show {
         visibility: visible;
     }
 
+    // Text on the side bar
     &-branding, &-nav {
         display: flex;
         flex-flow: column wrap; // /row
@@ -65,9 +68,11 @@
         overflow: hidden;
     }
 
+    // Side bar characteristics 
     &-nav {
         margin: 0;
         padding: 0;
         background: $bar-color;
+        list-style: none;
     }
 }
