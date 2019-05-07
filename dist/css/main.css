@@ -28,6 +28,8 @@
   width: 100%;
   opacity: 0.9;
   visibility: hidden; }
+  .menu.show {
+    visibility: visible; }
 
 * {
   box-sizing: border-box; }
