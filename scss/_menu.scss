@@ -116,7 +116,18 @@
         }
     }
 
-    
+    // Link style
+    .nav-link{
+        display: inline-block;
+        position: relative;
+        font-size: 30px;
+        text-transform: lowercase;
+        padding: 1rem 0;
+        font-weight: 300;
+        color: #f6f6f6;
+        text-decoration: none;
+        @include easeOut;
+    }
 }
 
 // Delay each nav item slide by 0.1s
