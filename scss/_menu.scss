@@ -48,7 +48,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
     visibility: hidden;
 
     // On click
@@ -72,7 +71,8 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: $bar-color;
+        //background: $bar-color;
+        background: rgba($bar-color, 0.9);
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include easeOut;
@@ -85,7 +85,8 @@
 
     // Branding side characteristics 
     &-branding {
-        background: darken($primary-color, 1);
+        background: rgba(darken($primary-color, 1), 0.9);
+        //background: darken($primary-color, 1);
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
