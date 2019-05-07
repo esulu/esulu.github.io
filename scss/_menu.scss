@@ -93,5 +93,15 @@
             // Slide in from bottom on click
             transform: translate3d(0, 0, 0);
         }
+
+        // Logo
+        .portrait {
+            width: 250px;
+            height: 250px;
+            background: url('../img/eren-logo3.jpg');
+            //background: url('../img/projects/HanSolo3.jpg');
+            border-radius: 50%; // Makes it a circle
+            border: solid 3px $secondary-color;
+        }
     }
 }

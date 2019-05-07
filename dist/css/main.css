@@ -54,6 +54,12 @@
     transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
+    .menu-branding .portrait {
+      width: 250px;
+      height: 250px;
+      background: url("../img/eren-logo3.jpg");
+      border-radius: 50%;
+      border: solid 3px #fd2549; }
 
 * {
   box-sizing: border-box; }
