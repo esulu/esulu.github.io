@@ -23,7 +23,7 @@ function toggleMenu() {
         showMenu = true;
     } else {
         menuBtn.classList.remove('close');
-        menu.classList.add('show');
+        menu.classList.remove('show');
         menuNav.classList.remove('show');
         menuBranding.classList.remove('show');
         navItems.forEach(item => item.classList.remove('show'));
