@@ -22,7 +22,7 @@ Roboto (Regular and Light)
 Roboto mono (Regular and Light)  
 
 ### don't forget
-npm run sass
-add the logo
-scalability for different screen sizes
-make the website look not like trash
+npm run sass  
+add the logo  
+scalability for different screen sizes  
+make the website look not like trash  
