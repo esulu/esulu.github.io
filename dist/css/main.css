@@ -37,16 +37,7 @@
     float: left;
     position: fixed;
     height: 11vh;
-    overflow: hidden;
-    /*
-        display: flex;
-        flex-flow: column wrap; // column to row
-        align-items: center;
-        justify-content: center;
-        float: left;
-        width: 50%;
-        height: 100vh;
-        overflow: hidden;*/ }
+    overflow: hidden; }
   .menu-nav {
     width: 100%;
     margin: 0;
@@ -54,58 +45,20 @@
     background: #191919;
     list-style: none;
     transform: translate3d(100%, 0, 0);
-    transition: all 0.5s ease-out;
-    /*
-                margin: 0;
-        padding: 0;
-        //background: $bar-color;
-        background: rgba($bar-color, 0.9);
-        list-style: none;
-        transform: translate3d(0, -100%, 0);
-        @include easeOut;
-
-        &.show {
-            // Slide in from top on click
-            transform: translate3d(0, 0, 0);
-        }*/ }
+    transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(5%, 0, 0); }
   .menu-branding {
     width: 5%;
     background: #191919;
     transform: translate3d(-100%, 0, 0);
-    transition: all 0.5s ease-out;
-    /*
-        background: rgba(darken($primary-color, 1), 0.9);
-        //background: darken($primary-color, 1);
-        transform: translate3d(0, 100%, 0);
-        @include easeOut;
-
-        &.show {
-            // Slide in from bottom on click
-            transform: translate3d(0, 0, 0);
-        }
-
-        // Logo
-        .portrait {
-            width: 250px;
-            height: 250px;
-            background: url('../img/eren-logo3.jpg');
-            border-radius: 50%; // Makes it a circle
-            border: solid 3px $secondary-color;
-        }*/ }
+    transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 11vh;
       height: 11vh;
-      background: url("../img/eren-logo-hex4-smallest.jpg");
-      /*
-            width: 250px;
-            height: 250px;
-            background: url('../img/eren-logo3.jpg');
-            border-radius: 50%; // Makes it a circle
-            border: solid 3px $secondary-color;*/ }
+      background: url("../img/eren-logo-hex4-smallest.jpg"); }
   .menu .nav-item {
     transform: translate3d(1200px, 0, 0);
     transition: all 0.5s ease-out; }

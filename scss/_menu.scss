@@ -65,17 +65,6 @@
         position: fixed;
         height: 11vh;
         overflow: hidden;
-
-        // OG CODE BELOW
-        /*
-        display: flex;
-        flex-flow: column wrap; // column to row
-        align-items: center;
-        justify-content: center;
-        float: left;
-        width: 50%;
-        height: 100vh;
-        overflow: hidden;*/
     }
 
     // Top text bar characteristics 
@@ -88,25 +77,10 @@
         transform: translate3d(100%, 0, 0);
         @include easeOut;
 
+        // Slide in from right on click
         &.show {
-            // Slide in from right on click
             transform: translate3d(5%, 0, 0);
         }
-
-        // OG CODE BELOW
-        /*
-                margin: 0;
-        padding: 0;
-        //background: $bar-color;
-        background: rgba($bar-color, 0.9);
-        list-style: none;
-        transform: translate3d(0, -100%, 0);
-        @include easeOut;
-
-        &.show {
-            // Slide in from top on click
-            transform: translate3d(0, 0, 0);
-        }*/
     }
 
     // Logo bar characteristics 
@@ -116,8 +90,8 @@
         transform: translate3d(-100%, 0, 0);
         @include easeOut;
 
+        // Slide in from left on click
         &.show {
-            // Slide in from left on click
             transform: translate3d(0, 0, 0);
         }
         
@@ -126,34 +100,8 @@
             width: 11vh;
             height: 11vh;
             background: url('../img/eren-logo-hex4-smallest.jpg');
-            /*
-            width: 250px;
-            height: 250px;
-            background: url('../img/eren-logo3.jpg');
-            border-radius: 50%; // Makes it a circle
-            border: solid 3px $secondary-color;*/
         }
 
-        // OG CODE BELOW
-        /*
-        background: rgba(darken($primary-color, 1), 0.9);
-        //background: darken($primary-color, 1);
-        transform: translate3d(0, 100%, 0);
-        @include easeOut;
-
-        &.show {
-            // Slide in from bottom on click
-            transform: translate3d(0, 0, 0);
-        }
-
-        // Logo
-        .portrait {
-            width: 250px;
-            height: 250px;
-            background: url('../img/eren-logo3.jpg');
-            border-radius: 50%; // Makes it a circle
-            border: solid 3px $secondary-color;
-        }*/
     }
 
     // Each item/link in the menu
@@ -169,8 +117,8 @@
             font-weight: 500;
         }
 
+        // Slide in from right on click
         &.show {
-            // Slide in from right on click
             transform: translate3d(0, 0, 0);
         }
 
