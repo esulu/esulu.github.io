@@ -59,6 +59,7 @@ main {
         a {
             padding: 0.4rem;
 
+            // Change colour on hover
             &:hover {
                 color: $secondary-color;
                 @include easeOut();
