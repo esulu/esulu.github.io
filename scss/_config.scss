@@ -1,9 +1,19 @@
 $primary-color: #232323;
 $secondary-color: #fd2549;
 $bar-color: #191919;
+$text-color: #f6f6f6;
 
 @mixin easeOut {
     transition: all 0.5s ease-out; // transition on hover
+}
+
+// Set text colour for light/dark theme
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return $bar-color;
+    } @else {
+        @return $text-color;
+    }
 }
 
 // Media query mixins for varying screen sizes 

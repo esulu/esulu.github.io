@@ -8,7 +8,7 @@
 
 body {
     background: $primary-color;
-    color: #f6f6f6;
+    color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,9 +29,9 @@ h1, h2, h3 {
     }
 }
 
-// Links
+// Link icons
 a {
-    color: #f6f6f6;
+    color: set-text-color($primary-color);
     text-decoration: none;
 }
 
