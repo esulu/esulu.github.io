@@ -26,3 +26,6 @@ npm run sass
 add the logo  
 scalability for different screen sizes  
 make the website look not like trash  
+
+### optional
+light/dark theme option  
