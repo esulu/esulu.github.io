@@ -24,6 +24,7 @@ Roboto mono (Regular and Light)
 ### don't forget
 npm run sass  
 ~~add the logo~~  
+have logo support for different screen sizes
 scalability for different screen sizes  
 make the logo go back up to the main page  
 actually implement the fonts  
