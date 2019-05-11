@@ -24,9 +24,9 @@ Roboto mono (Regular and Light)
 ### don't forget
 npm run sass  
 add the logo  
-scalability for different screen sizes
-make the logo go back up to the main page
-light/dark theme
+scalability for different screen sizes  
+make the logo go back up to the main page  
+light/dark theme  
 actually implement the fonts  
 make the website look not like trash  
 
