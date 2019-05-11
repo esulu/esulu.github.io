@@ -75,3 +75,11 @@ main {
         }
     }
 }
+
+.about-info { /// CHANGE TO ABOUT????
+    display: grid;
+    grid-template-areas: 
+    'bioimage bio bio'
+    'hobby1 hobby2 hobby3';
+    grid-template-columns: repeat(1, 1fr);
+}
