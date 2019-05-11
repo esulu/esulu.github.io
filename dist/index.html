@@ -8,23 +8,23 @@
 		// Add smooth scrolling to all links
 		$("a").on('click', function(event) {
 	
-		// Make sure this.hash has a value before overriding default behavior
-		if (this.hash !== "") {
-			// Prevent default anchor click behavior
-			event.preventDefault();
-	
-			// Store hash
-			var hash = this.hash;
-	
-			// Using jQuery's animate() method to add smooth page scroll
-			$('html, body').animate({
-			scrollTop: $(hash).offset().top
-			}, 800, function(){ // 800 miliseconds to scroll
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
 		
-			// Add hash (#) to URL when done scrolling (default click behavior)
-			window.location.hash = hash;
-			});
-		} 
+				// Store hash
+				var hash = this.hash;
+		
+				// Using jQuery's animate() method to add smooth page scroll
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top
+				}, 800, function(){ // 800 miliseconds to scroll
+			
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+				});
+			} 
 		});
 	});
 	</script>
@@ -123,7 +123,6 @@
 					<i class="fab fa-github fa-2x"></i>
 			</a>
 		</div>
-		
 
 		<div class="main" id="about">
 			<h1 class="lg-heading">
