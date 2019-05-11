@@ -115,3 +115,11 @@ main {
         border-bottom: $secondary-color 5px solid;
     }
 }
+
+#main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: $bar-color;
+    color: set-text-color($bar-color);
+    height: 60px;
+}
