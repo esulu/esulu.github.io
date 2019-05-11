@@ -27,6 +27,7 @@ npm run sass
 have logo support for different screen sizes  
 scalability for different screen sizes  
 make the logo go back up to the main page  
+add spacing between the different sections  
 actually implement the fonts  
 make the website look not like trash  
 
