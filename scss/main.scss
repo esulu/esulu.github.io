@@ -76,6 +76,7 @@ main {
     }
 }
 
+// Styling for the about page
 .about-info { 
     display: grid;
     grid-gap: 30px;
@@ -83,4 +84,28 @@ main {
     'bioimage bio bio'
     'hobby1 hobby2 hobby3';
     grid-template-columns: repeat(3, 1fr);
+}
+
+.bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    //border-radius: 50%;
+    border: $secondary-color 3px solid;
+}
+
+.bio { 
+    grid-area: bio;
+    font-size: 1.5rem;
+}
+
+.hobby-1 {
+    grid-area: hobby1;
+}
+
+.hobby-2 {
+    grid-area: hobby2;
+}
+
+.hobby-3 {
+    grid-area: hobby3;
 }
