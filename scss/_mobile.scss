@@ -48,6 +48,17 @@
         }
 
     }
+
+    .about-info {
+        grid-template-areas:
+        'bioimage'
+        'bio'
+        'hobby1'
+        'hobby2'
+        'hobby3'; // Orientation
+
+        grid-template-columns: 1fr;
+    }
 }
 
 // Phones

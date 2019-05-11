@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
 
 * {
     box-sizing: border-box;
@@ -83,7 +82,7 @@ main {
     grid-gap: 30px;
     grid-template-areas: 
     'bioimage bio bio'
-    'hobby1 hobby2 hobby3';
+    'hobby1 hobby2 hobby3'; // orientation
     grid-template-columns: repeat(3, 1fr);
 
     .bio-image {
@@ -124,3 +123,5 @@ main {
     color: set-text-color($bar-color);
     height: 60px;
 }
+
+@import 'mobile';
