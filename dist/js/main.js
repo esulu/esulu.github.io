@@ -10,6 +10,7 @@ const navItems = document.querySelectorAll('.nav-item');
 let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
+navItems.forEach(item => item.addEventListener('click', hideOnClick));
 
 function toggleMenu() {
     if(!showMenu) { // Displays the menu
@@ -22,6 +23,8 @@ function toggleMenu() {
         // Set the menu state to true
         showMenu = true;
     } else { // Hides the menu
+        hideMenu();
+        /*
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
         menuNav.classList.remove('show');
@@ -29,6 +32,23 @@ function toggleMenu() {
         navItems.forEach(item => item.classList.remove('show'));
 
         // Set the menu state to false
-        showMenu = false;
+        showMenu = false;*/
     }
+}
+
+function hideOnClick() {
+    if(showMenu) { // Menu is visible
+        hideMenu();
+    }
+}
+
+function hideMenu() {
+    menuBtn.classList.remove('close');
+    menu.classList.remove('show');
+    menuNav.classList.remove('show');
+    menuBranding.classList.remove('show');
+    navItems.forEach(item => item.classList.remove('show'));
+
+    // Set the menu state to false
+    showMenu = false;
 }
