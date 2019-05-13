@@ -1,4 +1,4 @@
-// Seclect doc object model items 
+// Select doc object model items 
 
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
@@ -12,7 +12,7 @@ let showMenu = false;
 menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
-    if(!showMenu) {
+    if(!showMenu) { // Displays the menu
         menuBtn.classList.add('close');
         menu.classList.add('show');
         menuNav.classList.add('show');
@@ -21,7 +21,7 @@ function toggleMenu() {
 
         // Set the menu state to true
         showMenu = true;
-    } else {
+    } else { // Hides the menu
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
         menuNav.classList.remove('show');
