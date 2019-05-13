@@ -11,6 +11,8 @@ let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 navItems.forEach(item => item.addEventListener('click', hideOnClick));
+// Remove top bar when navigating to the home page
+// menuBranding.addEventListener('click', hideOnClick); 
 
 function toggleMenu() {
     if(!showMenu) { // Displays the menu
