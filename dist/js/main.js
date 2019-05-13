@@ -24,15 +24,6 @@ function toggleMenu() {
         showMenu = true;
     } else { // Hides the menu
         hideMenu();
-        /*
-        menuBtn.classList.remove('close');
-        menu.classList.remove('show');
-        menuNav.classList.remove('show');
-        menuBranding.classList.remove('show');
-        navItems.forEach(item => item.classList.remove('show'));
-
-        // Set the menu state to false
-        showMenu = false;*/
     }
 }
 
