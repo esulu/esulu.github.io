@@ -119,7 +119,7 @@ main {
 // Projects
 .projects {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr); // 3 grids on one horizontal axis
 
     // Adjustments for images 
