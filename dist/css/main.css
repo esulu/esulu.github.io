@@ -181,6 +181,15 @@ main {
       border-color: #fd2549;
       transition: all 0.5s ease-out; }
 
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
+  .btn:hover {
+    background: #fd2549;
+    color: #191919; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;

@@ -127,6 +127,7 @@ main {
         width: 100%;
         border: 3px #f6f6f6 solid;
 
+        // Effect on hover
         &:hover {
             opacity: 0.5;
             border-color: $secondary-color;
@@ -137,7 +138,16 @@ main {
 
 // Button Styles 
 .btn {
-    
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+
+    // Effect on hover
+    &:hover {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
 }
 
 #main-footer {
