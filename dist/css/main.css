@@ -181,12 +181,12 @@ main {
       border-color: #fd2549;
       transition: all 0.5s ease-out; }
 
-.btn {
+.btn, .btn-dark, .btn-light {
   display: inline-block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #fd2549;
     color: #191919; }
 
