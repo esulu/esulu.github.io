@@ -136,6 +136,15 @@ main {
     }
 }
 
+// Contact Page
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 // Button Styles 
 .btn {
     display: block;
@@ -150,7 +159,6 @@ main {
     }
 }
 
-// Button styles
 .btn-dark {
     @extend .btn;
     background: darken($primary-color, 5);
