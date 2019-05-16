@@ -33,3 +33,4 @@ make the website look not like trash
 
 ### optional
 light/dark theme option  
+make a button for email  
