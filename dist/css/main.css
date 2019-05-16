@@ -240,7 +240,9 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'hobby1' 'hobby2' 'hobby3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
