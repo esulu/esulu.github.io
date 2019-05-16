@@ -205,6 +205,15 @@ main {
   color: #f6f6f6;
   height: 60px; }
 
+@media screen and (min-width: 1171px) {
+  /*.projects {
+        grid-template-columns: repeat(4, 1fr);
+    }*/ }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr); } }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;

@@ -2,11 +2,18 @@
 
 // Widescreens
 @include mediaXl {
+    // Increase here in case I decide to add more than 3 projects
+    /*.projects {
+        grid-template-columns: repeat(4, 1fr);
+    }*/
 
 }
 
 // Desktop/laptop
 @include mediaLg {
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
     
 }
 
