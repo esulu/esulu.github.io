@@ -149,6 +149,18 @@ main {
         border: 3px #f6f6f6 solid; 
         padding: 1.5rem 2.5rem;
         margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            //padding: 0.5rem 1.5rem; // changes size on hover to shrink
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+
+            // Adjusts the red text colour so it can be seen
+            span {
+                color: set-text-color($secondary-color);
+            }
+        }
     }
 }
 
