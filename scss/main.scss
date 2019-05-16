@@ -138,7 +138,7 @@ main {
 
 // Button Styles 
 .btn {
-    display: inline-block;
+    display: block;
     padding: 0.5rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
@@ -153,10 +153,14 @@ main {
 // Button styles
 .btn-dark {
     @extend .btn;
+    background: darken($primary-color, 5);
+    color: #f6f6f6;
 }
 
 .btn-light {
     @extend .btn;
+    background: #f6f6f6;
+    color: $bar-color;
 }
 
 #main-footer {

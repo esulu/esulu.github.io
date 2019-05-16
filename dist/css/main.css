@@ -182,13 +182,21 @@ main {
       transition: all 0.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
-  display: inline-block;
+  display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #fd2549;
     color: #191919; }
+
+.btn-dark {
+  background: #161616;
+  color: #f6f6f6; }
+
+.btn-light {
+  background: #f6f6f6;
+  color: #191919; }
 
 #main-footer {
   text-align: center;
