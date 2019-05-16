@@ -27,6 +27,7 @@ npm run sass
 support for different screen sizes  
 the logo bar is slightly short; extend it  
 display the main projects in a list, secondary ones will be in a grid  
+contact page redesign  
 ~~make the logo go back up to the main page~~  
 add spacing between the different sections  
 actually implement the fonts  
