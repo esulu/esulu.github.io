@@ -49,7 +49,7 @@
     .menu-nav.show {
       transform: translate3d(5%, 0, 0); }
   .menu-branding {
-    width: 5%;
+    width: 6%;
     background: #191919;
     transform: translate3d(-100%, 0, 0);
     transition: all 0.5s ease-out; }
