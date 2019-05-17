@@ -32,8 +32,8 @@
     ul.menu-nav, div.menu-branding {
         flex-flow: column wrap;
         align-items: center;
-        //justify-content: center;
-        height: 100vh;
+        justify-content: center;
+        position: static;
         overflow: hidden;
         float: none;
         width: 100%;
@@ -52,7 +52,6 @@
     }
 
     .menu-branding {
-        background: #fff;
         height: 25vh;
         transform: translate3d(100%, 0, 0);
 
