@@ -25,6 +25,10 @@ Roboto mono (Regular and Light)
 npm run sass  
 ~~add the logo~~  
 support for different screen sizes (logo needs attention here)  
+- Widescreen
+- Laptop/Desktop screen
+- Tablets
+- Phones
 Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text  
 ~~the logo bar is slightly short; extend it~~    
 contact page redesign  
