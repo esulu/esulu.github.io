@@ -26,7 +26,6 @@ npm run sass
 ~~add the logo~~  
 support for different screen sizes  
 ~~the logo bar is slightly short; extend it~~    
-display the main projects in a list, secondary ones will be in a grid  
 contact page redesign  
 ~~make the logo go back up to the main page~~
 add resume section that opens a pdf of the file    
