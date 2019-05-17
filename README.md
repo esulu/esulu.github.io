@@ -36,6 +36,7 @@ contact page redesign
 ~~make the logo go back up to the main page~~
 add resume section that opens a pdf of the file    
 add spacing between the different sections  
+cleanup code  
 actually implement the fonts  
 
 ### optional
