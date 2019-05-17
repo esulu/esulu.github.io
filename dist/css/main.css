@@ -181,6 +181,18 @@ main {
       border-color: #fd2549;
       transition: all 0.5s ease-out; }
 
+.otherProjects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .otherProjects img {
+    width: 100%;
+    border: 3px #f6f6f6 solid; }
+    .otherProjects img:hover {
+      opacity: 0.5;
+      border-color: #fd2549;
+      transition: all 0.5s ease-out; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
