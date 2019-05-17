@@ -24,7 +24,7 @@ Roboto mono (Regular and Light)
 ### don't forget
 npm run sass  
 ~~add the logo~~  
-support for different screen sizes  
+support for different screen sizes (logo needs attention here)  
 ~~the logo bar is slightly short; extend it~~    
 contact page redesign  
 ~~make the logo go back up to the main page~~
