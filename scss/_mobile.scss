@@ -30,6 +30,12 @@
     }
 
     ul.menu-nav, div.menu-branding {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
         float: none;
         width: 100%;
         min-height: 0;
@@ -40,7 +46,8 @@
     }
 
     .menu-nav {
-        height: 0vh; //75vh;
+        height: 10vh; //75vh;
+        padding: 0;
         transform: translate3d(-100%, 0, 0);
         font-size: 24px;
     }
@@ -51,7 +58,7 @@
 
         // Rescale logo for smaller screen sizes
         .portrait {
-            background: url('../img/eren-logo-hex4-smallest.jpg'); 
+            background: url('../img/eren-logo-hex4-smallest.jpg'); // Smaller version here?
         }
 
     }

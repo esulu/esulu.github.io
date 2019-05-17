@@ -233,13 +233,20 @@ main {
       line-height: 1;
       margin-bottom: 1rem; }
   ul.menu-nav, div.menu-branding {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
     float: none;
     width: 100%;
     min-height: 0; }
     ul.menu-nav.show, div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 0vh;
+    height: 10vh;
+    padding: 0;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
