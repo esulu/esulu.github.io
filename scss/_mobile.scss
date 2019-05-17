@@ -40,7 +40,7 @@
     }
 
     .menu-nav {
-        height: 75vh;
+        height: 0vh; //75vh;
         transform: translate3d(-100%, 0, 0);
         font-size: 24px;
     }
@@ -51,9 +51,7 @@
 
         // Rescale logo for smaller screen sizes
         .portrait {
-            background: url(); 
-            width: 150px;
-            height: 150px;
+            background: url('../img/eren-logo-hex4-smallest.jpg'); 
         }
 
     }
