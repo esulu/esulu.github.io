@@ -109,12 +109,15 @@
         transform: translate3d(1200px, 0, 0);
         @include easeOut;
 
-        // Adding the slashes in between the links, but not the last
-        a[required]::after {
-            padding-left: 3vh;
-            content: "/";
-            color: $secondary-color;
-            font-weight: 500;
+        // Slashes for screens that are greater than that of a tablet
+        @media (min-width: 769px) {
+            // Adding the slashes in between the links, but not the last
+            a[required]::after {
+                padding-left: 3vh;
+                content: "/";
+                color: $secondary-color;
+                font-weight: 500;
+            }
         }
 
         // Slide in from right on click
