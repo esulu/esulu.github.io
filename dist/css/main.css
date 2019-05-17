@@ -233,7 +233,6 @@ main {
       line-height: 1;
       margin-bottom: 1rem; }
   ul.menu-nav, div.menu-branding {
-    display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
