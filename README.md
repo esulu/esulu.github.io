@@ -26,9 +26,9 @@ npm run sass
 ~~add the logo~~  
 support for different screen sizes:  
 - ~~Widescreen~~
-- Laptop/Desktop screen (issue with logo needs to be fixed)
+- ~~Laptop/Desktop screen (issue with logo needs to be fixed)~~
 - ~~Tablets~~
-- ~~Phones~~  
+- Phones 
 
 Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text  
 ~~the logo bar is slightly short; extend it~~    
