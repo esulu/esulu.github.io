@@ -71,6 +71,7 @@
     &-nav {
         z-index: 3;
         width: 100%;
+        left:11vh;
         margin: 0;
         padding: 0.5rem;
         background: $bar-color;
@@ -78,9 +79,9 @@
         transform: translate3d(100%, 0, 0);
         @include easeOut;
 
-        // Slide in from right on click
+        // Slide in from right on click (used to be 5%)
         &.show {
-            transform: translate3d(10%, 0, 0);
+            transform: translate3d(0, 0, 0);
         }
     }
 
@@ -88,7 +89,6 @@
     &-branding {
         z-index: 4;
         //width: 6%;
-        //width: 25vh;
         width: 11vh;
         background: $bar-color;
         transform: translate3d(-100%, 0, 0);
