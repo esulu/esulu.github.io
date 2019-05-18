@@ -69,6 +69,7 @@
 
     // Top text bar characteristics 
     &-nav {
+        z-index: 3;
         width: 100%;
         margin: 0;
         padding: 0.5rem;
@@ -85,6 +86,7 @@
 
     // Logo bar characteristics 
     &-branding {
+        z-index: 4;
         width: 6%;
         background: $bar-color;
         transform: translate3d(-100%, 0, 0);
