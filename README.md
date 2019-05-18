@@ -33,7 +33,7 @@ support for different screen sizes:
 Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text  
 ~~the logo bar is slightly short; extend it~~    
 contact page redesign  
-~~make the logo go back up to the main page~~
+~~make the logo go back up to the main page~~  
 add resume section that opens a pdf of the file    
 add spacing between the different sections  
 cleanup code  
