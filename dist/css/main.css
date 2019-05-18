@@ -65,7 +65,7 @@
   .menu .nav-item {
     transform: translate3d(1200px, 0, 0);
     transition: all 0.5s ease-out; }
-    @media (min-width: 769px) {
+    @media (min-width: 870px) {
       .menu .nav-item a[required]::after {
         padding-left: 3vh;
         content: "/";
@@ -225,11 +225,11 @@ main {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (min-width: 769px) and (max-width: 1170px) {
+@media screen and (min-width: 870px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 869px) {
   main {
     align-items: center;
     text-align: center; }

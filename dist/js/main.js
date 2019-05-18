@@ -13,7 +13,7 @@ menuBtn.addEventListener('click', toggleMenu);
 navItems.forEach(item => item.addEventListener('click', hideOnClick));
 
 // Remove top bar when navigating to the home page if the screen is for tablets and below, otherwise it stays
-if(window.innerWidth < 769){
+if(window.innerWidth < 870){
     menuBranding.addEventListener('click', hideOnClick); 
 }
 
