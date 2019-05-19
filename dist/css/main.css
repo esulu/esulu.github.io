@@ -130,7 +130,7 @@ header {
   color: #fd2549; }
 
 main {
-  padding: 4vh;
+  padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
