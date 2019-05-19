@@ -67,7 +67,7 @@ main {
         }
     }
 
-    // Moves the main text lower by 20vh (might have to change to rem)
+    // Moves the main text lower by 20vh 
     &#home {
         overflow: hidden;
         h1 {
@@ -109,6 +109,7 @@ main {
         grid-area: hobby3;
     }
     
+    // Style for the hobby sections
     .hobby {
         background: lighten($bar-color, 7); //$bar-color; or prim color, 5
         padding: 0.5rem;
