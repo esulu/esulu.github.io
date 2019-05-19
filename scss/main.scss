@@ -139,6 +139,7 @@ main {
 
 // Contact Page
 .boxes {
+    // Note: might want to use grid here
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
