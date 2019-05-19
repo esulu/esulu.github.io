@@ -36,6 +36,7 @@ contact page redesign
 ~~make the logo go back up to the main page~~  
 add resume section that opens a pdf of the file    
 add spacing between the different sections  
+add a short text description on the project images when hovered  
 cleanup code  
 actually implement the fonts  
 
