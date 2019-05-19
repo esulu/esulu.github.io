@@ -29,6 +29,7 @@ support for different screen sizes:
 - ~~Laptop/Desktop screen (issue with logo needs to be fixed)~~
 - ~~Tablets~~
 - Phones 
+- Issue: height affects the top bar incorrectly
 
 ~~Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text~~  
 ~~the logo bar is slightly short; extend it~~    
