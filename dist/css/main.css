@@ -269,6 +269,10 @@ main {
 @media screen and (max-width: 500px) {
   main {
     padding: 0; }
+  .menu-branding .portrait {
+    height: 50px;
+    width: 50px;
+    background: url("../img/eren-logo-hex4-actualsmallest.jpg"); }
   main#home h1 {
     margin-top: 10vh; }
   .projects {

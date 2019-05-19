@@ -86,6 +86,15 @@
         padding: 0;
     }
 
+    .menu-branding {
+        // Rescale logo for smaller screen sizes
+        .portrait {
+            height: 50px;
+            width: 50px;
+            background: url('../img/eren-logo-hex4-actualsmallest.jpg'); // Smaller version here?
+        }
+    }
+
     main#home h1 {
         margin-top: 10vh;
     }
