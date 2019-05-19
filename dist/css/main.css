@@ -130,6 +130,7 @@ header {
   color: #fd2549; }
 
 main {
+  padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -266,6 +267,8 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  main {
+    padding: 2rem; }
   main#home h1 {
     margin-top: 10vh; }
   .projects {
