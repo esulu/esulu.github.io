@@ -37,7 +37,7 @@ contact page redesign
 add resume section that opens a pdf of the file    
 add spacing between the different sections  
 make sure the github links in the projects open in a new tab  
-add a short text description on the project images when hovered
+add a short text description on the project images when hovered  
 actually implement the fonts  
 cleanup code  
 
