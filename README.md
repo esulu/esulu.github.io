@@ -29,7 +29,6 @@ npm run sass
 - ~~Laptop/Desktop screen (issue with logo needs to be fixed)~~
 - ~~Tablets~~
 - ~~Phones~~  
-- Issue: height affects the top bar incorrectly  
 
 ~~Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text~~  
 ~~the logo bar is slightly short; extend it~~    
@@ -37,6 +36,7 @@ contact page redesign
 ~~make the logo go back up to the main page~~  
 add resume section that opens a pdf of the file    
 add spacing between the different sections  
+make sure the github links in the projects open in a new tab  
 add a short text description on the project images when hovered  
 cleanup code  
 actually implement the fonts  
