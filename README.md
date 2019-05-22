@@ -32,14 +32,14 @@ npm run sass
 - [x] Support for phone 
 - [x] Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text  
 - [x] The logo bar is slightly short; extend it    
-- [] Contact page redesign (note quite done: add icons)  
+- [ ] Contact page redesign (note quite done: add icons)  
 - [x] Make the logo go back up to the main page  
 - [x] Add resume section that opens a pdf of the file  
-- [] Add spacing between the different sections  
-- [] Make sure the github links in the projects open in a new tab  
-- [] Add a short text description on the project images when hovered  
-- [] Actually implement the fonts  
-- [] Cleanup code  
+- [ ] Add spacing between the different sections  
+- [ ] Make sure the github links in the projects open in a new tab  
+- [ ] Add a short text description on the project images when hovered  
+- [ ] Actually implement the fonts  
+- [ ] Cleanup code  
 
 ### optional
 light/dark theme option  
