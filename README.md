@@ -25,7 +25,7 @@ Roboto mono (Regular and Light)
 
 ### don't forget
 npm run sass  
-[x] add the logo  
+-[x] add the logo  
 support for different screen sizes:  
 - Widescreen
 - Laptop/Desktop screen (issue with logo needs to be fixed)~~
