@@ -25,12 +25,12 @@ Roboto mono (Regular and Light)
 
 ### don't forget
 npm run sass  
-~~add the logo~~  
-~~support for different screen sizes:~~  
-- ~~Widescreen~~
-- ~~Laptop/Desktop screen (issue with logo needs to be fixed)~~
-- ~~Tablets~~
-- ~~Phones~~  
+[x] add the logo  
+support for different screen sizes:  
+- Widescreen
+- Laptop/Desktop screen (issue with logo needs to be fixed)~~
+- Tablets~~
+- Phones~~  
 
 ~~Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text~~  
 ~~the logo bar is slightly short; extend it~~    
