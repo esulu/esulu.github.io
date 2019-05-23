@@ -36,6 +36,8 @@ npm run sass
 - [x] Make the logo go back up to the main page  
 - [x] Add resume section that opens a pdf of the file  
 - [ ] Add spacing between the different sections  
+- [ ] Fill out the info page
+- [ ] Fill out the projects page
 - [ ] Make sure the github links in the projects open in a new tab  
 - [ ] Add a short text description on the project images when hovered  
 - [ ] Actually implement the fonts  
