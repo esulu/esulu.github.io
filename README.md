@@ -32,7 +32,7 @@ npm run sass
 - [x] Support for phone 
 - [x] Make the tablet screen size slight less restrictive so the "X" doesn't overlap the text  
 - [x] The logo bar is slightly short; extend it    
-- [ ] Contact page redesign (note quite done: add icons)  
+- [x] Contact page redesign (note quite done: add icons)  
 - [x] Make the logo go back up to the main page  
 - [x] Add resume section that opens a pdf of the file  
 - [ ] Add spacing between the different sections  
