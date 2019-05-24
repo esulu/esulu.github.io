@@ -144,9 +144,6 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
-.about {
-  margin-top: 50rem; }
-
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -187,7 +184,8 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin-top: 20rem;
+  margin-bottom: 20rem; }
   .boxes div {
     font-size: 1.5rem;
     border: 3px #f6f6f6 solid;

@@ -51,6 +51,7 @@ main {
     padding: 4rem;
     //height: 100%;
     min-height: calc(100vh - 60px); // Makes sure the 60px footer stays at the bottom
+    //margin-top: 20vh;
 
     // Icons
     .icons {
@@ -74,11 +75,9 @@ main {
             margin-top: 20vh;
         }
     }
+
 }
 
-.about {
-    margin-top: 50rem;
-}
 
 // Styling for the about page
 .about-info { 
@@ -149,7 +148,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
 
     div {
         font-size: 1.5rem;
