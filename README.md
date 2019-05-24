@@ -41,6 +41,7 @@ npm run sass
 - [ ] Make sure the github links in the projects open in a new tab  
 - [ ] Add a short text description on the project images when hovered  
 - [ ] Actually implement the fonts  
+- [ ] Maybe put the resume on the top bar  
 - [ ] Cleanup code  
 
 ### optional
