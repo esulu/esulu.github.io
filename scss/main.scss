@@ -76,9 +76,14 @@ main {
     }
 }
 
+.about {
+    margin-top: 50rem;
+}
+
 // Styling for the about page
 .about-info { 
     display: grid;
+    //margin-top: 50rem;
     grid-gap: 30px;
     grid-template-areas: 
     'bioimage bio bio'
