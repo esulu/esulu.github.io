@@ -7,6 +7,10 @@ $text-color: #f6f6f6;
     transition: all 0.5s ease-out; // transition on hover
 }
 
+@mixin easeOutFast {
+    transition: all 0.3s ease-out; // transition on hover
+}
+
 // Set text colour for light/dark theme
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
