@@ -298,4 +298,7 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes-resume, .boxes-contact {
+    margin-top: 10rem;
+    margin-bottom: 10rem; } }
