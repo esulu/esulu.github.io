@@ -299,6 +299,9 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
-  .boxes-resume, .boxes-contact {
-    margin-top: 10rem;
-    margin-bottom: 10rem; } }
+  .boxes-resume {
+    margin-top: 14rem;
+    margin-bottom: 14rem; }
+  .boxes-contact {
+    margin-top: 5rem;
+    margin-bottom: 0; } }
