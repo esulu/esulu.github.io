@@ -45,6 +45,6 @@ npm run sass
 - [ ] Maybe put the resume on the top bar  
 - [ ] Cleanup code  
 
-### optional
+### Optional
 light/dark theme option  
 make a button for email  
