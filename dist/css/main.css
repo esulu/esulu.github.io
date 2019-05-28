@@ -168,6 +168,52 @@ main {
     padding: 0.5rem;
     border-bottom: #fd2549 5px solid; }
 
+.hover-animation {
+  width: 100%;
+  height: 250px;
+  display: inline-block;
+  -webkit-backgroung-size: cover;
+  background-size: cover;
+  background-origin: center;
+  border: 1px solid #fff;
+  position: relative;
+  overflow: hidden; }
+
+.one {
+  background-image: url(/projects/HanSolo3.jpg); }
+
+.hover-animation:before,
+.hover-animation:after {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content: '';
+  position: absolute;
+  background: inherit;
+  transition: .3s; }
+
+.hover-animation:after {
+  padding: 65px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  background: #95a5a6;
+  transform: translateY(100%);
+  content: attr(data-text); }
+
+.hover-animatin:hover:before {
+  transform: translateY(-50%); }
+
+.hober-animation:hover:after {
+  transform: translateY(0); }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -178,11 +224,6 @@ main {
     .projects img:hover {
       opacity: 0.5;
       border-color: #fd2549;
-      /*.img_description_layer {
-                color: $secondary-color;
-                visibility: visible;
-                opacity: 1;
-            }*/
       transition: all 0.5s ease-out; }
 
 .item:hover .img-description-layer {
