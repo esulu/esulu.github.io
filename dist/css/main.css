@@ -178,6 +178,10 @@ main {
     .projects img:hover {
       opacity: 0.5;
       border-color: #fd2549;
+      /*.img_description_layer {
+                visibility: visible;
+                opacity: 1;
+            }*/
       transition: all 0.5s ease-out; }
 
 .boxes-resume {
@@ -218,13 +222,13 @@ main {
       .boxes-contact div:hover span {
         color: #191919; }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark, .btn-light, .btn-other {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
   transition: all 0.3s ease-out; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover, .btn-other:hover {
     background: #fd2549;
     color: #191919; }
 
@@ -235,6 +239,23 @@ main {
 .btn-light {
   background: #f6f6f6;
   color: #191919; }
+
+.btn-other {
+  background: #f6f6f6;
+  color: #191919;
+  /*
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(36, 62, 206, 0.6);
+    color: $secondary-color;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/ }
 
 #main-footer {
   text-align: center;
