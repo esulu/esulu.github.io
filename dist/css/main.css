@@ -222,13 +222,13 @@ main {
       .boxes-contact div:hover span {
         color: #191919; }
 
-.btn, .btn-dark, .btn-light, .btn-other {
+.btn, .btn-dark, .btn-light, .img-description-layer {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
   transition: all 0.3s ease-out; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover, .btn-other:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover, .img-description-layer:hover {
     background: #fd2549;
     color: #191919; }
 
@@ -240,7 +240,7 @@ main {
   background: #f6f6f6;
   color: #191919; }
 
-.btn-other {
+.img-description-layer {
   background: #f6f6f6;
   color: #191919;
   /*
