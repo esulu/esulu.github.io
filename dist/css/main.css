@@ -180,7 +180,7 @@ main {
   overflow: hidden; }
 
 .one {
-  background-image: url(/projects/HanSolo3.jpg); }
+  background-image: url("../img/projects/HanSolo3.jpg"); }
 
 .hover-animation:before,
 .hover-animation:after {
@@ -208,10 +208,10 @@ main {
   transform: translateY(100%);
   content: attr(data-text); }
 
-.hover-animatin:hover:before {
+.hover-animation:hover:before {
   transform: translateY(-50%); }
 
-.hober-animation:hover:after {
+.hover-animation:hover:after {
   transform: translateY(0); }
 
 .projects {
