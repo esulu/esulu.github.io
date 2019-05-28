@@ -233,14 +233,10 @@ main {
     color: $bar-color;
 }
 
-.img_description_layer {
-    display: block;
-    padding: 0.5rem 1rem;
-    border: 0;
-    margin-bottom: 0.3rem;
+.btn-ext {
+    @extend .btn;
     background: #f6f6f6;
     color: $secondary-color;
-    @include easeOutFast;
 
     /*
     position: absolute;
