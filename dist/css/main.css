@@ -239,11 +239,6 @@ main {
       border-color: #fd2549;
       transition: all 0.5s ease-out; }
 
-.item:hover .img-description-layer {
-  visibility: visible;
-  opacity: 1;
-  transition: all 0.5s ease-out; }
-
 .boxes-resume {
   display: flex;
   flex-wrap: wrap;

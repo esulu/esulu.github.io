@@ -213,12 +213,6 @@ main {
     }
 }
 
-.item:hover .img-description-layer {
-    visibility: visible;
-    opacity: 1;
-    @include easeOut;
-}
-
 // Resume page
 .boxes-resume {
     // Note: might want to use grid here
