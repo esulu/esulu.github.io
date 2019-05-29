@@ -46,5 +46,5 @@ npm run sass
 - [ ] Cleanup code  
 
 ### Optional
-light/dark theme option  
-make a button for email  
+- [ ] Light/dark theme option  
+- [ ] Make a button for email  
