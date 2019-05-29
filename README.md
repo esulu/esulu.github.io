@@ -43,7 +43,8 @@ npm run sass
 - [x] Add a short text description on the project images when hovered  
 - [ ] Actually implement the fonts  
 - [ ] Maybe put the resume on the top bar  
-- [ ] Cleanup code  
+- [ ] Cleanup code   
+- [ ] Add link to website repo  
 
 ### Optional
 - [ ] Light/dark theme option  
