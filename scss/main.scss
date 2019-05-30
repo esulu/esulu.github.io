@@ -321,11 +321,11 @@ main {
     background: $bar-color;
     color: set-text-color($bar-color);
     height: 60px;
-    
+
     &:hover {
         span {
             color: $secondary-color;
-            @include easeOut;
+            @include easeOutFast;
         }
     }
 }
