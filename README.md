@@ -43,7 +43,7 @@ npm run sass
 - [x] Add a short text description on the project images when hovered  
 - [ ] Actually implement the fonts    
 - [ ] Cleanup code   
-- [ ] Add link to website repo  
+- [x] Add link to website repo  
 
 ### Optional
 - [ ] Light/dark theme option  
