@@ -321,6 +321,11 @@ main {
     background: $bar-color;
     color: set-text-color($bar-color);
     height: 60px;
+    @include easeOut;
+
+    &:hover {
+        color: $secondary-color;
+    }
 }
 
 @import 'mobile';

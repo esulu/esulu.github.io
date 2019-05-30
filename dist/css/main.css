@@ -314,7 +314,10 @@ main {
   padding: 1rem;
   background: #191919;
   color: #f6f6f6;
-  height: 60px; }
+  height: 60px;
+  transition: all 0.5s ease-out; }
+  #main-footer:hover {
+    color: #fd2549; }
 
 @media screen and (min-width: 1171px) {
   .projects {
