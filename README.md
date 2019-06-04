@@ -39,7 +39,6 @@ npm run sass
 - [x] Adjust the spacing for each screen size  
 - [ ] Fill out the info page  
 - [ ] Fill out the projects page
-- Tron  
 - [ ] Make sure the github links in the projects open in a new tab  
 - [x] Add a short text description on the project images when hovered  
 - [ ] Actually implement the fonts    
