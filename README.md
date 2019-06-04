@@ -44,6 +44,7 @@ npm run sass
 - [ ] Actually implement the fonts    
 - [ ] Cleanup code   
 - [x] Add link to website repo  
+- [ ] Add website icon     
 
 ### Optional
 - [ ] Light/dark theme option  
