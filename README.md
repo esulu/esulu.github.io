@@ -39,7 +39,6 @@ npm run sass
 - [x] Adjust the spacing for each screen size  
 - [ ] Fill out the info page  
 - [ ] Fill out the projects page
-- Battleship  
 - Tron  
 - Towers  
 - CVECT  
