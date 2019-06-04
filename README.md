@@ -40,7 +40,6 @@ npm run sass
 - [ ] Fill out the info page  
 - [ ] Fill out the projects page
 - Tron  
-- Towers  
 - CVECT  
 - [ ] Make sure the github links in the projects open in a new tab  
 - [x] Add a short text description on the project images when hovered  
