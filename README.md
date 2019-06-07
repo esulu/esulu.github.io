@@ -41,13 +41,13 @@ npm run sass
 - [ ] Fill out the projects page
 - [x] Add github links    
 - [ ] Make sure the github links in the projects open in a new tab  
-- [x] Add a short text description on the project images when hovered  
-- [ ] Actually implement the fonts    
+- [x] Add a short text description on the project images when hovered     
 - [ ] Cleanup code   
 - [x] Add link to website repo  
 - [ ] Add website logo  
 
 ### Optional
+- [ ] Maybe implement the planned fonts 
 - [ ] Light/dark theme option  
 - [ ] Make a button for email 
 - [ ] Maybe put the resume on the top bar
