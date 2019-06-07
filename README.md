@@ -40,7 +40,7 @@ npm run sass
 - [ ] Fill out the info page  
 - [ ] Fill out the projects page
 - [x] Add github links    
-- [ ] Make sure the github links in the projects open in a new tab  
+- [x] Make sure the github links in the projects open in a new tab  
 - [x] Add a short text description on the project images when hovered     
 - [ ] Cleanup code   
 - [x] Add link to website repo  
