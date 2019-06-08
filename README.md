@@ -45,6 +45,7 @@ npm run sass
 - [ ] Cleanup code   
 - [x] Add link to website repo  
 - [ ] Add website logo  
+- [ ] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
 
 ### Optional
 - [ ] Maybe implement the planned fonts 
