@@ -46,6 +46,7 @@ npm run sass
 - [x] Add link to website repo  
 - [ ] Add website logo  
 - [ ] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
+- [ ] Change description when the site is done  
 
 ### Optional
 - [ ] Maybe implement the planned fonts 
