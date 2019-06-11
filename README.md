@@ -51,5 +51,5 @@ npm run sass
 ### Optional
 - [ ] Maybe implement the planned fonts 
 - [ ] Light/dark theme option  
-- [ ] Make a button for email 
+- [x] Make a button for email 
 - [ ] Maybe put the resume on the top bar
