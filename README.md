@@ -7,8 +7,6 @@ Website is currently a work in progress.
 [esulu.github.io](https://esulu.github.io/dist/index.html)
 
 ## Tools
-node-sass has been used in this project. The source can be viewed on this [GitHub page](https://github.com/sass/node-sass).  
-
 Icons are from [fontawesome](https://fontawesome.com)
 
 ## Personal Reference Sections Below
