@@ -233,11 +233,14 @@ main {
   grid-template-columns: 1fr; }
   .projects img {
     width: 100%;
-    border: 3px #f6f6f6 solid; }
-    .projects img:hover {
-      opacity: 0.5;
-      border-color: #fd2549;
-      transition: all 0.5s ease-out; }
+    border: 3px #f6f6f6 solid;
+    /* OLD FADE IN EFFECT 
+       // Effect on hover
+       &:hover {
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include easeOut;
+        }*/ }
 
 .boxes-resume {
   display: flex;
