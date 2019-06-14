@@ -106,10 +106,9 @@ body {
   color: #f6f6f6;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /*
     font-family: 'RobotoMono-Light';
-    src: url("dist/fonts/RobotoMono-Light.ttf");*/
+    src: url("fonts/RobotoMono-Light.ttf");*/
   line-height: 1.5; }
 
 h1, h2, h3 {
