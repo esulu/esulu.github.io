@@ -36,6 +36,7 @@ npm run sass
 - [x] Add spacing between the different sections  
 - [x] Adjust the spacing for each screen size  
 - [ ] Fill out the info page (currently working on it) 
+- Still need photo  
 - [x] Fill out the projects page
 - [x] Add github links    
 - [x] Make sure the github links in the projects open in a new tab  
