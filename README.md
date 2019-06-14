@@ -45,7 +45,7 @@ npm run sass
 - [x] Add link to website repo  
 - [x] Add website logo (favicon)  
 - [ ] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
-- [ ] Change readme description when the site is done  
+- [ ] Change readme description when the site is done (remove in progress part)  
 
 ### Optional
 - [ ] Maybe implement the planned fonts 
