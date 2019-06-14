@@ -106,8 +106,10 @@ body {
   color: #f6f6f6;
   height: 100%;
   margin: 0;
-  font-family: 'RobotoMono-Light';
-  src: url("dist/fonts/RobotoMono-Light.ttf");
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*
+    font-family: 'Roboto-Light';
+    src: url("https://esulu.github.io/fonts/Roboto-Light.ttf");*/
   line-height: 1.5; }
 
 h1, h2, h3 {
