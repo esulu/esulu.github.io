@@ -122,6 +122,18 @@ main {
     }
 }
 
+.experience {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+
+    .company {
+        background: lighten($bar-color, 7); //$bar-color; or prim color, 5
+        padding: 0.5rem;
+        border-bottom: $secondary-color 5px solid;
+    }
+}
+
 .hover-animation {
     width: 100%;
     height: 250px;
