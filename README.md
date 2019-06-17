@@ -2,7 +2,7 @@
 Repo intended for my personal website.
 
 ## Website Link
-[esulu.github.io](https://esulu.github.io/dist/index.html)
+[esulu.github.io](https://esulu.github.io)
 
 ## Tools
 Icons are from [fontawesome](https://fontawesome.com)
