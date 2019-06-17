@@ -43,7 +43,8 @@ npm run sass
 - [x] Add website logo (favicon)  
 - [x] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
 - [x] Change readme description when the site is done (remove in progress part)  
-- [ ] add updated resume
+- [ ] make the top bar height static (gets buggy when removing bookmarks)  
+- [ ] add updated resume  
 
 ### Optional
 - [ ] Make it so the link stays static when navigating different sections  
