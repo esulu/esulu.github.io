@@ -41,7 +41,7 @@ npm run sass
 - [x] Cleanup code   
 - [x] Add link to website repo  
 - [x] Add website logo (favicon)  
-- [ ] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
+- [x] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
 - [x] Change readme description when the site is done (remove in progress part)  
 
 ### Optional
