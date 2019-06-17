@@ -45,6 +45,7 @@ npm run sass
 - [x] Change readme description when the site is done (remove in progress part)  
 
 ### Optional
+- [ ] Make it so the link stays static when navigating different sections  
 - [ ] Maybe implement the planned fonts 
 - [ ] Light/dark theme option  
 - [x] Make a button for email 
