@@ -54,3 +54,4 @@ npm run sass
 
 ### Future plans
 - [ ] Work experience in the field  
+- [ ] Own domain  
