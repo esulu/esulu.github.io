@@ -278,7 +278,6 @@ main {
         @include easeOut;
 
         &:hover {
-            //padding: 0.5rem 1.5rem; // changes size on hover to shrink
             background: $secondary-color;
             color: set-text-color($secondary-color);
 
@@ -318,11 +317,6 @@ main {
 }
 
 .img-description-layer {
-    /*position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;*/
     background: rgba(36, 62, 206, 0.6);
     color: #f6f6f6;
     visibility: hidden;
