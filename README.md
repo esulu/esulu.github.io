@@ -40,7 +40,7 @@ npm run sass
 - [x] Add github links    
 - [x] Make sure the github links in the projects open in a new tab  
 - [x] Add a short text description on the project images when hovered     
-- [ ] Cleanup code   
+- [x] Cleanup code   
 - [x] Add link to website repo  
 - [x] Add website logo (favicon)  
 - [ ] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
