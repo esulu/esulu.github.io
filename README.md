@@ -44,7 +44,7 @@ npm run sass
 - [x] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
 - [x] Change readme description when the site is done (remove in progress part)  
 - [x] make the top bar height static (gets buggy when removing bookmarks)  
-- [ ] Add a custom link to the top bar  
+- [x] Add a custom link to the top bar  
 - [ ] add updated resume  
 
 ### Optional
