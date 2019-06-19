@@ -45,7 +45,7 @@ npm run sass
 - [x] Change readme description when the site is done (remove in progress part)  
 - [x] make the top bar height static (gets buggy when removing bookmarks)  
 - [x] Add a custom link to the top bar  
-- [ ] add updated resume  
+- [x] add updated resume  
 
 ### Optional
 - [ ] Make it so the link stays static when navigating different sections  
