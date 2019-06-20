@@ -46,6 +46,7 @@ npm run sass
 - [x] make the top bar height static (gets buggy when removing bookmarks)  
 - [x] Add a custom link to the top bar  
 - [x] add updated resume  
+- [ ] icon for favourites pages   
 
 ### Optional
 - [ ] Make it so the link stays static when navigating different sections  
