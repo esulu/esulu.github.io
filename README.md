@@ -47,6 +47,7 @@ npm run sass
 - [x] Add a custom link to the top bar  
 - [x] add updated resume  
 - [ ] icon for favourites pages   
+- [ ] Search engine optimization (https://help.github.com/en/articles/search-engine-optimization-for-github-pages)  
 
 ### Optional
 - [ ] Make it so the link stays static when navigating different sections  
