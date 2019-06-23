@@ -57,5 +57,6 @@ npm run sass
 - [ ] Maybe put the resume on the top bar
 
 ### Future plans
+- [ ] Make the menu button appear/disappear depending on scroll  
 - [ ] Work experience in the field  
 - [ ] Own domain  
