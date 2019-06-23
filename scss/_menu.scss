@@ -1,5 +1,6 @@
 // Menu button and functionality 
 
+// The three bar menu icon
 .menu-btn {
     position: absolute;
     z-index: 3;
@@ -42,7 +43,7 @@
     }
 }
 
-// Menu overlay
+// Menu overlay (for the menu itself)
 .menu {
     // Default 
     position: fixed;
