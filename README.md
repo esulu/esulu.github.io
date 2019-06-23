@@ -51,7 +51,7 @@ npm run sass
 - [x] Make the menu button appear/disappear depending on scroll  
 
 ### Optional
-- [ ] Make it so the link stays static when navigating different sections  
+~~- [ ] Make it so the link stays static when navigating different sections~~  
 - [ ] Maybe implement the originally planned fonts 
 - [ ] Light/dark theme option  
 - [x] Make a button for email 
