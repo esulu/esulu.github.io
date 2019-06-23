@@ -55,13 +55,15 @@ var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
 
-  var currentScrollPos = window.pageYOffset;
-  
-    if (prevScrollpos > currentScrollPos) { // Show
-        menuBtn.style.top = "35px";
-    } else { // Hide
-        menuBtn.style.top = "-35px";
-    }
+    if(!showMenu) {
+        var currentScrollPos = window.pageYOffset;
+    
+        if (prevScrollpos > currentScrollPos) { // Show
+            menuBtn.style.top = "35px";
+        } else { // Hide
+            menuBtn.style.top = "-35px";
+        }
 
-    prevScrollpos = currentScrollPos;
+        prevScrollpos = currentScrollPos;
+    }
 }
