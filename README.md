@@ -48,7 +48,7 @@ npm run sass
 - [x] add updated resume  
 - [x] icons  
 - [x] Search engine optimization  
-- [ ] Make the menu button appear/disappear depending on scroll  
+- [x] Make the menu button appear/disappear depending on scroll  
 
 ### Optional
 - [ ] Make it so the link stays static when navigating different sections  
