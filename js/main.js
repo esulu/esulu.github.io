@@ -27,6 +27,7 @@ function toggleMenu() {
 
         // Set the menu state to true
         showMenu = true;
+
     } else { // Hides the menu
         hideMenu();
     }
@@ -47,4 +48,20 @@ function hideMenu() {
 
     // Set the menu state to false
     showMenu = false;
+}
+
+// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar 
+var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+
+  var currentScrollPos = window.pageYOffset;
+  
+    if (prevScrollpos > currentScrollPos) { // Show
+        menuBtn.style.top = "35px";
+    } else { // Hide
+        menuBtn.style.top = "-35px";
+    }
+
+    prevScrollpos = currentScrollPos;
 }

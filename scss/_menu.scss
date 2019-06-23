@@ -7,6 +7,7 @@
     right: 35px;
     top: 35px;
     cursor: pointer;
+    transition: top 0.3s; // Transition effect when sliding down (and up)
     @include easeOut;
 
     .btn-line {
