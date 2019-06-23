@@ -46,8 +46,9 @@ npm run sass
 - [x] make the top bar height static (gets buggy when removing bookmarks)  
 - [x] Add a custom link to the top bar  
 - [x] add updated resume  
-- [ ] icon for favourites pages   
+- [x] icons  
 - [x] Search engine optimization  
+- [ ] Make the menu button appear/disappear depending on scroll  
 
 ### Optional
 - [ ] Make it so the link stays static when navigating different sections  
@@ -57,6 +58,5 @@ npm run sass
 - [ ] Maybe put the resume on the top bar
 
 ### Future plans
-- [ ] Make the menu button appear/disappear depending on scroll  
 - [ ] Work experience in the field  
 - [ ] Own domain  
