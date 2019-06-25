@@ -4,6 +4,7 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
+  transition: top 0.3s;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
@@ -151,8 +152,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio'
- 'hobby1 hobby2 hobby3';
+  grid-template-areas: 'bioimage bio bio' 'hobby1 hobby2 hobby3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -264,7 +264,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 20rem;
-  margin-bottom: 22rem; }
+  margin-bottom: 20rem; }
   .boxes-resume div {
     font-size: 1.5rem;
     border: 3px #f6f6f6 solid;
@@ -368,11 +368,7 @@ main {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
   .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'hobby1'
- 'hobby2'
- 'hobby3';
+    grid-template-areas: 'bioimage' 'bio' 'hobby1' 'hobby2' 'hobby3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
