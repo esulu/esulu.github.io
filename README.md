@@ -52,10 +52,10 @@ npm run sass
 
 ### Optional
 - [ ] ~~Make it so the link stays static when navigating different sections~~  
-- [ ] Maybe implement the originally planned fonts 
+- [ ] Implement the originally planned fonts 
 - [ ] Light/dark theme option  
 - [x] Make a button for email 
-- [ ] Maybe put the resume on the top bar
+- [ ] Maybe put the resume on the top bar  
 
 ### Future plans
 - [ ] Work experience in the field  
