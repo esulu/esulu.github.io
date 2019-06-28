@@ -19,7 +19,7 @@ White: #f6f6f6
 Roboto (Regular and Light)  
 Roboto mono (Regular and Light)  
 
-#### Font Guide
+#### Font Guide (Not in effect)
 Roboto:
 - Titles (Regular)
 - Text (Light)
