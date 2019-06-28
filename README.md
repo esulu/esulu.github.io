@@ -19,6 +19,17 @@ White: #f6f6f6
 Roboto (Regular and Light)  
 Roboto mono (Regular and Light)  
 
+#### Font Guide
+Roboto:
+- Titles (Regular)
+- Text (Light)
+
+Roboto Mono:
+- Buttons
+- Top Bar
+- Footer
+- Maybe Projects page
+
 ### TODO
 npm run sass  
 - [x] Add the logo  
