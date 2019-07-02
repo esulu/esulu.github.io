@@ -15,7 +15,10 @@ Darker Grey: #232323
 Lighter Grey: #191919  
 White: #f6f6f6  
 
-### Fonts
+### Font
+Segoe UI
+
+### Fonts (Original idea, possibly scrapped)
 Roboto (Regular and Light)  
 Roboto mono (Regular and Light)  
 
