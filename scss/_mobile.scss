@@ -81,9 +81,13 @@
     .menu-branding {
         // Rescale logo for smaller screen sizes
         .portrait {
-            height: 50px;
+            width: 100px;
+            height: 100px;
+            background: url('../img/eren-logo-hex4.jpg');
+
+            /*height: 50px;
             width: 50px;
-            background: url('../img/eren-logo-hex4-small.jpg');
+            background: url('../img/eren-logo-hex4-small.jpg');*/
         }
     }
 
