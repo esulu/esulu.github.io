@@ -77,11 +77,13 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
   .menu .nav-link {
+    font-family: 'roboto_mono_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     position: relative;
-    font-size: 30px;
+    font-size: 22px; /*used to be 25px*/
     text-transform: lowercase;
-    padding: 1rem;
+    padding: 1rem; /*used to be 1rem*/
+    top: 10px; /*added later*/
     font-weight: 300;
     color: #f6f6f6;
     text-decoration: none;
