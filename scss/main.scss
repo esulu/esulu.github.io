@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import "stylesheet.css";
 
 * {
     box-sizing: border-box;
@@ -11,10 +12,20 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'roboto_mono_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+
     /*
     font-family: 'Roboto-Light';
     src: url("https://esulu.github.io/fonts/Roboto-Light.ttf");*/
     //src: url("../fonts/Roboto-Light.ttf");
+
+    /* Fonts:
+    robotoregular
+    roboto_lightregular
+
+    roboto_monoregular
+    roboto_mono_lightregular */
+
     line-height: 1.5;
 }
 

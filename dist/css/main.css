@@ -1,5 +1,4 @@
-@import "stylesheet.css";
-
+@import url(stylesheet.css);
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -110,15 +109,16 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /*font-family: 'roboto_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-  
+  /*font-family: 'roboto_mono_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+  /*
+    font-family: 'Roboto-Light';
+    src: url("https://esulu.github.io/fonts/Roboto-Light.ttf");*/
   /* Fonts:
-  robotoregular
-  roboto_lightregular
+    robotoregular
+    roboto_lightregular
 
-  roboto_monoregular
-  roboto_mono_lightregular */
-
+    roboto_monoregular
+    roboto_mono_lightregular */
   line-height: 1.5; }
 
 h1, h2, h3 {
@@ -160,8 +160,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio'
- 'hobby1 hobby2 hobby3';
+  grid-template-areas: 'bioimage bio bio' 'hobby1 hobby2 hobby3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -377,11 +376,7 @@ main {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
   .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'hobby1'
- 'hobby2'
- 'hobby3';
+    grid-template-areas: 'bioimage' 'bio' 'hobby1' 'hobby2' 'hobby3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
