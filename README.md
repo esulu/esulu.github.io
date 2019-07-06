@@ -18,21 +18,6 @@ White: #f6f6f6
 ### Font
 Segoe UI
 
-~~### Fonts~~ 
-~~Roboto (Regular and Light)~~  
-~~Roboto mono (Regular and Light)~~  
-
-~~#### Font Guide (Not in effect)~~
-~~Roboto:~~
-~~- Titles (Regular)~~
-~~- Text (Light)~~
-
-~~Roboto Mono:~~
-~~- Buttons~~
-~~- Top Bar~~
-~~- Footer~~
-~~- Maybe Projects page~~
-
 ### TODO
 npm run sass  
 - [x] Add the logo  
