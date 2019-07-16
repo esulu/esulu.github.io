@@ -1,3 +1,4 @@
+@import url(stylesheet.css);
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -79,7 +80,7 @@
     position: relative;
     font-size: 30px;
     text-transform: lowercase;
-    padding: 1rem; 
+    padding: 1rem;
     font-weight: 300;
     color: #f6f6f6;
     text-decoration: none;
@@ -108,15 +109,13 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /*font-family: 'roboto_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-  
+  /*font-family: 'roboto_mono_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
   /* Fonts:
-  robotoregular
-  roboto_lightregular
+    robotoregular
+    roboto_lightregular
 
-  roboto_monoregular
-  roboto_mono_lightregular */
-
+    roboto_monoregular
+    roboto_mono_lightregular */
   line-height: 1.5; }
 
 h1, h2, h3 {
@@ -158,8 +157,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio'
- 'hobby1 hobby2 hobby3';
+  grid-template-areas: 'bioimage bio bio' 'hobby1 hobby2 hobby3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -375,11 +373,7 @@ main {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
   .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'hobby1'
- 'hobby2'
- 'hobby3';
+    grid-template-areas: 'bioimage' 'bio' 'hobby1' 'hobby2' 'hobby3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
@@ -387,18 +381,21 @@ main {
 @media screen and (max-width: 500px) {
   main {
     padding: 0; }
-  /*.menu-branding .portrait {
-    height: 50px;
-    width: 50px;
-    background: url("../img/eren-logo-hex4-small.jpg"); }*/
+  .menu-branding .portrait {
+    width: 100px;
+    height: 100px;
+    background: url("../img/eren-logo-hex4.jpg");
+    /*height: 50px;
+            width: 50px;
+            background: url('../img/eren-logo-hex4-small.jpg');*/ }
   main#home h1 {
     margin-top: 10vh; }
   .projects {
     grid-gap: 2rem;
     grid-template-columns: 1fr; }
   .boxes-resume {
-    margin-top: 14rem;
-    margin-bottom: 14rem; }
+    margin-top: 16rem;
+    margin-bottom: 16rem; }
   .boxes-contact {
     margin-top: 5rem;
     margin-bottom: 0; } }
