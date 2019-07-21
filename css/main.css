@@ -221,6 +221,9 @@ main {
 .seven {
   background-image: url("../img/projects/cvect.png"); }
 
+.eight {
+  background-image: url("../img/projects/graph1.png"); }
+
 .hover-animation:before,
 .hover-animation:after {
   top: 0;
