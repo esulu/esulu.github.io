@@ -48,7 +48,6 @@ npm run sass
 - [x] icons  
 - [x] Search engine optimization  
 - [x] Make the menu button appear/disappear depending on scroll  
-- [ ] Start on home page when refreshed  
 
 ### Optional
 - [ ] ~~Make it so the link stays static when navigating different sections~~  
