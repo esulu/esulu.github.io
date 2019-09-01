@@ -56,7 +56,7 @@ npm run sass
 - [ ] Light/dark theme option  
 - [x] Make a button for email 
 - [ ] Maybe put the resume on the top bar  
-- [ ] Add animations  
+- [x] Add animations  
 
 ### Future plans
 - [ ] Work experience in the field  
