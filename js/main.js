@@ -78,4 +78,5 @@ ScrollReveal().reveal('.menu-btn', { delay: 1000 });
 
 // About page
 ScrollReveal().reveal('.about-info');
+ScrollReveal().reveal('.hobby', { interval: 200 });
 
