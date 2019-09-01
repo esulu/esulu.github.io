@@ -83,7 +83,7 @@ ScrollReveal().reveal('.hobby', { interval: 200 });
 ScrollReveal().reveal('.item', { interval: 100, distance: '50px' });
 
 // Resume page
-ScrollReveal().reveal('.boxes-resume', { distance: '100px' });
+ScrollReveal().reveal('.boxes-resume', { distance: '100px', duration: 1200 });
 
 // Contact info
-ScrollReveal().reveal('.boxes-contact', { distance: '100px' });
+ScrollReveal().reveal('.boxes-contact', { distance: '100px', duration: 1200 });
