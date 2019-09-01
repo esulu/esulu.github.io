@@ -69,9 +69,13 @@ window.onscroll = function() {
 }
 
 // ScrollReveal functions
-//ScrollReveal().reveal('main');
+
 ScrollReveal().reveal('main');
-ScrollReveal().reveal('.sm-heading', { delay: 200 });
-ScrollReveal().reveal('.icons', { delay: 400 });
+
+// Home page
+ScrollReveal().reveal('.sm-heading-top', { delay: 500 });
+ScrollReveal().reveal('.icons', { delay: 1000 });
+
+// About page
 ScrollReveal().reveal('.about-info');
 

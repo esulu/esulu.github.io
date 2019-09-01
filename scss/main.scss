@@ -33,9 +33,10 @@ h1, h2, h3 {
         font-size: 6rem;
     }
 
-    &.sm-heading {
+    &.sm-heading, &.sm-heading-top {
         margin-bottom: 2rem;
     }
+
 }
 
 // Link icons
