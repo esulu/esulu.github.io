@@ -82,3 +82,6 @@ ScrollReveal().reveal('.hobby', { interval: 200 });
 // Projects page
 ScrollReveal().reveal('.item', { interval: 100 });
 
+// Resume page
+ScrollReveal().reveal('.boxes-resume', {distance: '100px'});
+
