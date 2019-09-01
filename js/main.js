@@ -85,3 +85,5 @@ ScrollReveal().reveal('.item', { interval: 100 });
 // Resume page
 ScrollReveal().reveal('.boxes-resume', {distance: '100px'});
 
+// Contact info
+ScrollReveal().reveal('.boxes-contact', {distance: '50px'});
