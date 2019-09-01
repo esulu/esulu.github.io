@@ -69,9 +69,9 @@ window.onscroll = function() {
 }
 
 // ScrollReveal functions
-console.log("hello");
-
+//ScrollReveal().reveal('main');
 ScrollReveal().reveal('main');
-ScrollReveal().reveal('about-info');
-ScrollReveal().reveal('projects');
+ScrollReveal().reveal('.sm-heading', { delay: 200 });
+ScrollReveal().reveal('.icons', { delay: 400 });
+ScrollReveal().reveal('.about-info');
 
