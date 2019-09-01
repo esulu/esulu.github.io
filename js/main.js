@@ -67,3 +67,11 @@ window.onscroll = function() {
         prevScrollpos = currentScrollPos;
     }
 }
+
+// ScrollReveal functions
+console.log("hello");
+
+ScrollReveal().reveal('main');
+ScrollReveal().reveal('about-info');
+ScrollReveal().reveal('projects');
+
