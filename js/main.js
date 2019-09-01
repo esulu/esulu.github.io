@@ -74,7 +74,7 @@ window.onscroll = function() {
 // Home page
 ScrollReveal().reveal('.sm-heading-top', { delay: 500, distance: '50px' });
 ScrollReveal().reveal('.icons', { delay: 1000, distance: '50px' });
-//ScrollReveal().reveal('.menu-btn', { origin: 'top', distance: '50px'})
+ScrollReveal().reveal('.menu-btn', { origin: 'top', distance: '50px'})
 
 // About page
 ScrollReveal().reveal('.about-info');
@@ -88,3 +88,8 @@ ScrollReveal().reveal('.boxes-resume', { distance: '100px' });
 
 // Contact info
 ScrollReveal().reveal('.boxes-contact', { distance: '100px' });
+
+/* TEMP TODO
+fix menu button
+home page
+start screen on home*/
