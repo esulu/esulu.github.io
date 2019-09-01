@@ -124,7 +124,7 @@ body {
 h1, h2, h3 {
   margin: 0;
   font-weight: 400; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  h1.lg-heading, h1.lg-heading-top, h2.lg-heading, h2.lg-heading-top, h3.lg-heading, h3.lg-heading-top {
     font-size: 6rem; }
   h1.sm-heading, h1.sm-heading-top, h2.sm-heading, h2.sm-heading-top, h3.sm-heading, h3.sm-heading-top {
     margin-bottom: 2rem; }
@@ -356,7 +356,7 @@ main {
   main {
     align-items: center;
     text-align: center; }
-    main .lg-heading {
+    main .lg-heading, main .lg-heading-top {
       line-height: 1;
       margin-bottom: 1rem; }
   ul.menu-nav, div.menu-branding {

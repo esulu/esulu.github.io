@@ -33,7 +33,7 @@ h1, h2, h3 {
     margin: 0;
     font-weight: 400;
 
-    &.lg-heading {
+    &.lg-heading, &.lg-heading-top {
         font-size: 6rem;
     }
 

@@ -72,6 +72,7 @@ window.onscroll = function() {
 //ScrollReveal().reveal('main', {distance: '50px'});
 
 // Home page
+ScrollReveal().reveal('.lg-heading-top', { distance: '50px' });
 ScrollReveal().reveal('.sm-heading-top', { delay: 500, distance: '50px' });
 ScrollReveal().reveal('.icons', { delay: 1000, distance: '50px' });
 
