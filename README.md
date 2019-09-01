@@ -40,7 +40,7 @@ npm run sass
 - [x] Cleanup code   
 - [x] Add link to website repo  
 - [x] Add website logo (favicon)  
-- [x] Styling for the boxes in the projects page (more veritcal spacing for smaller screens, perhaps wider too)  
+- [x] Styling for the boxes in the projects page (more vertical spacing for smaller screens, perhaps wider too)  
 - [x] Change readme description when the site is done (remove in progress part)  
 - [x] make the top bar height static (gets buggy when removing bookmarks)  
 - [x] Add a custom link to the top bar  
