@@ -79,3 +79,6 @@ ScrollReveal().reveal('.icons', { delay: 1000 });
 ScrollReveal().reveal('.about-info');
 ScrollReveal().reveal('.hobby', { interval: 200 });
 
+// Projects page
+ScrollReveal().reveal('.item', { interval: 100 });
+
