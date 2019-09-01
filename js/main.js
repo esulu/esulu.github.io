@@ -51,32 +51,30 @@ function hideMenu() {
 }
 
 // When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar 
-var prevScrollpos = window.pageYOffset;
+var prevScrollPos = window.pageYOffset;
 
 window.onscroll = function() {
 
     if(!showMenu) {
         var currentScrollPos = window.pageYOffset;
     
-        if (prevScrollpos > currentScrollPos) { // Show
+        if (prevScrollPos > currentScrollPos) { // Show
             menuBtn.style.top = "35px";
         } else { // Hide
             menuBtn.style.top = "-35px";
         }
 
-        prevScrollpos = currentScrollPos;
+        prevScrollPos = currentScrollPos;
     }
 }
 
 // ScrollReveal functions
 //ScrollReveal().reveal('main', {distance: '50px'});
 
-//note: have hte menu button go down
-
 // Home page
 ScrollReveal().reveal('.sm-heading-top', { delay: 500, distance: '50px' });
 ScrollReveal().reveal('.icons', { delay: 1000, distance: '50px' });
-ScrollReveal().reveal('.menu-btn', {  distance: '50px'})
+//ScrollReveal().reveal('.menu-btn', { origin: 'top', distance: '50px'})
 
 // About page
 ScrollReveal().reveal('.about-info');
