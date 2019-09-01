@@ -69,21 +69,21 @@ window.onscroll = function() {
 }
 
 // ScrollReveal functions
-//ScrollReveal().reveal('main');
+ScrollReveal().reveal('main', {distance: '50px'});
 
 // Home page
-ScrollReveal().reveal('.sm-heading-top', { delay: 500 });
-ScrollReveal().reveal('.icons', { delay: 1000 });
+ScrollReveal().reveal('.sm-heading-top', { delay: 500, distance: '50px' });
+ScrollReveal().reveal('.icons', { delay: 1000, distance: '50px' });
 
 // About page
 ScrollReveal().reveal('.about-info');
 ScrollReveal().reveal('.hobby', { interval: 200 });
 
 // Projects page
-ScrollReveal().reveal('.item', { interval: 100 });
+ScrollReveal().reveal('.item', { interval: 100, distance: '50px' });
 
 // Resume page
-ScrollReveal().reveal('.boxes-resume', {distance: '100px'});
+ScrollReveal().reveal('.boxes-resume', {distance: '100px' });
 
 // Contact info
-ScrollReveal().reveal('.boxes-contact', {distance: '50px'});
+ScrollReveal().reveal('.boxes-contact', {distance: '50px' });
