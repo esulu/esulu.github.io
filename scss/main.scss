@@ -2,6 +2,10 @@
 @import 'menu';
 @import "stylesheet.css";
 
+html.sr .load-hidden {
+    visibility: hidden;
+  }
+
 * {
     box-sizing: border-box;
 }
