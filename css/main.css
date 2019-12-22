@@ -67,7 +67,7 @@
   .menu .nav-item {
     transform: translate3d(1200px, 0, 0);
     transition: all 0.5s ease-out; }
-    @media (min-width: 870px) {
+    @media (min-width: 935px) {
       .menu .nav-item a[required]::after {
         padding-left: 3vh;
         content: "/";
@@ -350,15 +350,15 @@ main {
     color: #fd2549;
     transition: all 0.3s ease-out; }
 
-@media screen and (min-width: 1171px) {
+@media screen and (min-width: 1201px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (min-width: 870px) and (max-width: 1170px) {
+@media screen and (min-width: 935px) and (max-width: 1200px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 869px) {
+@media screen and (max-width: 934px) {
   main {
     align-items: center;
     text-align: center; }
@@ -390,7 +390,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 680px) {
   main {
     padding: 0; }
   .menu-branding .portrait {

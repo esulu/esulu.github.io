@@ -120,7 +120,7 @@
         @include easeOut;
 
         // Slashes for screens that are greater than that of a tablet
-        @media (min-width: 870px) {
+        @media (min-width: 935px) {
             // Adding the slashes in between the links, but not the last
             a[required]::after {
                 padding-left: 3vh;
