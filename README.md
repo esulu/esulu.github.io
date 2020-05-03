@@ -2,7 +2,7 @@
 Repo intended for my personal website.
 
 ## Website Link
-[esulu.github.io](https://esulu.github.io)
+[erensulutas.me](https://erensulutas.me)
 
 ## Tools
 Icons are from [fontawesome](https://fontawesome.com)
@@ -59,4 +59,4 @@ npm run sass
 
 ### Future plans
 - [ ] Work experience in the field  
-- [ ] Own domain  
+- [x] Own domain  
