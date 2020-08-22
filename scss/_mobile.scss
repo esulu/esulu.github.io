@@ -89,6 +89,19 @@
     main {
         padding: 0;
     }
+    
+    // Headings
+    h1, h2, h3 {
+
+        &.lg-heading {
+            font-size: 5rem;
+        }
+
+        &.sm-heading, &.sm-heading-top {
+            margin-bottom: 2rem;
+        }
+
+    }
 
     .menu-branding {
         // Rescale logo for smaller screen sizes
