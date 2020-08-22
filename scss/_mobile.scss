@@ -67,6 +67,18 @@
         grid-template-columns: 1fr;
     }
 
+    .experience {
+        grid-template-areas: 
+        'company1' 
+        'company1-image'
+        'company2'
+        'company3'; // orientation
+
+        grid-template-columns: 1fr;
+        align-items: left;
+        text-align: left;
+    }
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }

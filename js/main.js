@@ -80,6 +80,9 @@ ScrollReveal().reveal('.icons', { delay: 1000, distance: '50px' });
 ScrollReveal().reveal('.about-info');
 ScrollReveal().reveal('.hobby', { interval: 200 });
 
+// Experience
+ScrollReveal().reveal('.experience', { interval: 100, distance: '50px', duration: 800 });
+
 // Projects page
 ScrollReveal().reveal('.item', { interval: 100, distance: '50px' });
 

@@ -137,18 +137,57 @@ main {
     }
 }
 
-/*
+
 .experience {
+    // display: grid;
+    // grid-gap: 30px;
+    // grid-template-columns: repeat(3, 1fr);
+
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'company1 company1-image'
+    'company2 company3'; // orientation
+    grid-template-columns: repeat(2, 1fr);
+
+    .company-1 {
+        grid-area: company1;
+    }
+
+    .company-1-image {
+        grid-area: company1-image;
+        margin: auto;
+        border: $secondary-color 3px solid;
+    }
+    
+    .company-2 {
+        grid-area: company2;
+    }
+    
+    .company-3 {
+        grid-area: company3;
+    }
 
     .company {
         background: lighten($bar-color, 7); //$bar-color; or prim color, 5
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
+
+        .list {
+            list-style: none;
+        }
+    
+        .list li::before {
+            content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: $secondary-color;
+            font-weight: bold; 
+            display: inline-block;
+            width: 1.2em;
+            margin-left: -2em;
+        }
     }
-}*/
+
+}
 
 .hover-animation {
     width: 100%;
