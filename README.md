@@ -58,5 +58,5 @@ npm run sass
 - [x] Add animations  
 
 ### Future plans
-- [ ] Work experience in the field  
+- [x] Work experience in the field  
 - [x] Own domain  
