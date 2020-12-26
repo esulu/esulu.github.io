@@ -2,7 +2,7 @@
 Repo intended for my personal website.
 
 ## Website Link
-[erensulutas.me](https://erensulutas.me)
+[erensulutas.com](https://erensulutas.com)
 
 ## Tools
 Icons are from [fontawesome](https://fontawesome.com)
