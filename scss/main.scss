@@ -16,15 +16,6 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /*font-family: 'roboto_mono_lightregular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-
-    /* Fonts:
-    robotoregular
-    roboto_lightregular
-
-    roboto_monoregular
-    roboto_mono_lightregular */
-
     line-height: 1.5;
 }
 
@@ -147,27 +138,35 @@ main {
     grid-gap: 30px;
     grid-template-areas: 
     'company1 company1-image'
-    'company2 company3'; // orientation
+    'company2 company2-image'
+    'company3 company3-image'; // orientation
     grid-template-columns: repeat(2, 1fr);
 
     .company-1 {
         grid-area: company1;
     }
-
-    .company-1-image {
-        grid-area: company1-image;
-        margin: auto;
-        border: $secondary-color 3px solid;
-    }
-    
+ 
     .company-2 {
         grid-area: company2;
     }
-    
+
     .company-3 {
         grid-area: company3;
     }
 
+    .company-img {
+        margin: auto;
+        border: $secondary-color 3px solid;
+    }
+    
+    .company-1-image {
+        grid-area: company1-image;
+    }
+
+    .company-2-image {
+        grid-area: company2-image;
+    }
+    
     .company {
         background: lighten($bar-color, 7); //$bar-color; or prim color, 5
         padding: 0.5rem;
