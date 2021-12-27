@@ -136,10 +136,10 @@ main {
 
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: 
-    'company1 company1-image'
-    'company2 company2-image'
-    'company3 company3-image'; // orientation
+    // grid-template-areas: 
+    // 'company1 company1-image'
+    // 'company2 company2-image'
+    // 'company3 company3-image'; // orientation
     grid-template-columns: repeat(2, 1fr);
 
     .company-1 {
