@@ -180,19 +180,9 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, 1fr); }
-  .experience .company-1 {
-    grid-area: company1; }
-  .experience .company-2 {
-    grid-area: company2; }
-  .experience .company-3 {
-    grid-area: company3; }
   .experience .company-img {
     margin: auto;
     border: #fd2549 3px solid; }
-  .experience .company-1-image {
-    grid-area: company1-image; }
-  .experience .company-2-image {
-    grid-area: company2-image; }
   .experience .company {
     background: #2b2b2b;
     padding: 0.5rem;

@@ -142,30 +142,30 @@ main {
     // 'company3 company3-image'; // orientation
     grid-template-columns: repeat(2, 1fr);
 
-    .company-1 {
-        grid-area: company1;
-    }
+    // .company-1 {
+    //     grid-area: company1;
+    // }
  
-    .company-2 {
-        grid-area: company2;
-    }
+    // .company-2 {
+    //     grid-area: company2;
+    // }
 
-    .company-3 {
-        grid-area: company3;
-    }
+    // .company-3 {
+    //     grid-area: company3;
+    // }
 
     .company-img {
         margin: auto;
         border: $secondary-color 3px solid;
     }
     
-    .company-1-image {
-        grid-area: company1-image;
-    }
+    // .company-1-image {
+    //     grid-area: company1-image;
+    // }
 
-    .company-2-image {
-        grid-area: company2-image;
-    }
+    // .company-2-image {
+    //     grid-area: company2-image;
+    // }
     
     .company {
         background: lighten($bar-color, 7); //$bar-color; or prim color, 5
