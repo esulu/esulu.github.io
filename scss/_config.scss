@@ -1,7 +1,14 @@
-$primary-color: #232323;
+/* dark theme */
+// $primary-color: #232323;
+// $secondary-color: #fd2549;
+// $bar-color: #191919;
+// $text-color: #f6f6f6;
+
+/* light theme */
+$primary-color: #f6f6f6;
 $secondary-color: #fd2549;
-$bar-color: #191919;
-$text-color: #f6f6f6;
+$bar-color: #d3d3d3;
+$text-color: #191919;
 
 @mixin easeOut {
     transition: all 0.5s ease-out; // transition on hover
@@ -13,11 +20,11 @@ $text-color: #f6f6f6;
 
 // Set text colour for light/dark theme
 @function set-text-color($color) {
-    @if (lightness($color) > 40) {
-        @return $bar-color;
-    } @else {
+    // @if (lightness($color) > 40) {
+        // @return $bar-color;
+    // } @else {
         @return $text-color;
-    }
+    // }
 }
 
 // Media query mixins for varying screen sizes 

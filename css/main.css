@@ -1,3 +1,5 @@
+/* dark theme */
+/* light theme */
 @import url(stylesheet.css);
 .menu-btn {
   position: absolute;
@@ -11,7 +13,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #f6f6f6;
+    background: #191919;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -46,7 +48,7 @@
     left: 100px;
     margin: 0;
     padding: 0.5rem;
-    background: #191919;
+    background: #d3d3d3;
     list-style: none;
     transform: translate3d(100%, 0, 0);
     transition: all 0.5s ease-out; }
@@ -55,7 +57,7 @@
   .menu-branding {
     z-index: 4;
     width: 100px;
-    background: #191919;
+    background: #d3d3d3;
     transform: translate3d(-100%, 0, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -63,7 +65,7 @@
     .menu-branding .portrait {
       width: 100px;
       height: 100px;
-      background: url("../img/eren-logo-hex4.jpg"); }
+      background: url("../img/eren-logo-hex4-transparent.png"); }
   .menu .nav-item {
     transform: translate3d(1200px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -82,7 +84,7 @@
     text-transform: lowercase;
     padding: 1rem;
     font-weight: 300;
-    color: #f6f6f6;
+    color: #191919;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -110,8 +112,8 @@ html.sr .load-hidden {
   box-sizing: border-box; }
 
 body {
-  background: #232323;
-  color: #f6f6f6;
+  background: #f6f6f6;
+  color: #191919;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -126,7 +128,7 @@ h1, h2, h3 {
     margin-bottom: 2rem; }
 
 a {
-  color: #f6f6f6;
+  color: #191919;
   text-decoration: none; }
 
 header {
@@ -172,7 +174,7 @@ main {
   .about-info .hobby-3 {
     grid-area: hobby3; }
   .about-info .hobby {
-    background: #2b2b2b;
+    background: #e5e5e5;
     padding: 0.5rem;
     border-bottom: #fd2549 5px solid; }
 
@@ -184,7 +186,7 @@ main {
     margin: auto;
     border: #fd2549 3px solid; }
   .experience .company {
-    background: #2b2b2b;
+    background: #e5e5e5;
     padding: 0.5rem;
     border-bottom: #fd2549 5px solid; }
     .experience .company .list {
@@ -263,9 +265,9 @@ main {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #191919;
   font-size: 18px;
-  background: #2b2b2b;
+  background: #e5e5e5;
   transform: translateY(100%);
   content: attr(data-text); }
 
@@ -281,7 +283,7 @@ main {
   grid-template-columns: 1fr; }
   .projects img {
     width: 100%;
-    border: 3px #f6f6f6 solid;
+    border: 3px #191919 solid;
     /* OLD FADE IN EFFECT 
        // Effect on hover
        &:hover {
@@ -299,7 +301,7 @@ main {
   margin-bottom: 20rem; }
   .boxes-resume div {
     font-size: 1.5rem;
-    border: 3px #f6f6f6 solid;
+    border: 3px #191919 solid;
     padding: 1.5rem 1.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -318,7 +320,7 @@ main {
   margin-bottom: 15rem; }
   .boxes-contact div {
     font-size: 1.5rem;
-    border: 3px #f6f6f6 solid;
+    border: 3px #191919 solid;
     padding: 1.5rem 1.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -339,16 +341,16 @@ main {
     color: #191919; }
 
 .btn-dark {
-  background: #161616;
-  color: #f6f6f6; }
+  background: #e9e9e9;
+  color: #191919; }
 
 .btn-light {
-  background: #f6f6f6;
+  background: #e5e5e5;
   color: #191919; }
 
 .img-description-layer {
   background: rgba(36, 62, 206, 0.6);
-  color: #f6f6f6;
+  color: #191919;
   visibility: hidden;
   opacity: 0;
   display: flex;
@@ -358,8 +360,8 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #191919;
-  color: #f6f6f6;
+  background: #d3d3d3;
+  color: #191919;
   height: 60px; }
   #main-footer:hover span {
     color: #fd2549;
@@ -420,7 +422,7 @@ main {
   .menu-branding .portrait {
     width: 100px;
     height: 100px;
-    background: url("../img/eren-logo-hex4.jpg");
+    background: url("../img/eren-logo-hex4-transparent.png");
     /*height: 50px;
             width: 50px;
             background: url('../img/eren-logo-hex4-small.jpg');*/ }
